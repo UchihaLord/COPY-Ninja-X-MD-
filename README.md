@@ -13,7 +13,7 @@
 </p>
 
 ## 🌟 `Bot Intro and Features`
-[![COPY-NINJA-X-MD](https://i.imgur.com/bWfDDEU.jpg)](https://youtu.be/WcA7GZuaN0A)
+[![COPY-NINJA-X-MD](https://telegra.ph/file/aa3fe1106628e8a75684b.jpg)](https://youtu.be/WcA7GZuaN0A)
 
 ### ℹ️ **About COPY-NINJA-X-MD**
 COPY-NINJA-X-MD is a versatile Multi-Device WhatsApp bot developed by [Ashley Kakashi](https://github.com/uchihalord). It offers a wide range of features, making it an advanced and user-friendly bot for various purposes.
