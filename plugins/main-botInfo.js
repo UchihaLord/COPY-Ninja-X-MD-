@@ -42,27 +42,27 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './COPYNINJA.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO XLICON-V2 BOT* ⭐
+⭐ *INFO COPY NINJA X BOT* ⭐
 
   ╭───•✧✧•───╮
   *≡*. 
 │ ➫「 *Developer* 」
-│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
-│ ➫ *Place   :* Pakistan & Ghana
+│ ➫ *Name    :* Ahley Kakashi & Henry Goku
+│ ➫ *Place   :* Zimbabwe & Ghana
 │ ➫ *Gender  :*  ᴍᴀʟᴇ
 │ ➫ *Age     :* _18_ and _19_
-│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
-│ ➫ *GitHub  :* github.com/salmanytofficial
-│ ➫ *IG ID   :* instagram.com/ahmmikun
-│ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
+│ ➫ *Phone   :* wa.me/263738403303 & wa.me/+256789810043
+│ ➫ *YouTube :* youtube.com/@ashlycopyninja 
+│ ➫ *GitHub  :* github.com/uchihalord
+│ ➫ *IG ID   :* instagram.com/ashley serene
+│ ➫ *Channel* :https://whatsapp.com/channel/0029VaYeTzmD38CQdRx5qJ34
 │ ➫ *Status  :* Debugging
  Code._
-© XLICON-V2 BY Salman Ahmad and AB-Dev
+© COPY-NINJA-X-MD BY Ashley Kakashi and Henry
 
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
